@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>测试文章</title>
+    <url>/rongdean.github.io/2019/11/07/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<h1 id="我是标题1"><a href="#我是标题1" class="headerlink" title="我是标题1"></a>我是标题1</h1><h2 id="我是内容1"><a href="#我是内容1" class="headerlink" title="我是内容1"></a>我是内容1</h2><p>下面的是分割线</p>
+<hr>
+<h1 id="我是标题2"><a href="#我是标题2" class="headerlink" title="我是标题2"></a>我是标题2</h1><h2 id="我是内容2"><a href="#我是内容2" class="headerlink" title="我是内容2"></a>我是内容2</h2><p>划掉内容↓</p>
+<p><del>划掉内容</del></p>
+<hr>
+<figure class="highlight jboss-cli"><table><tr><td class="code"><pre><span class="line">markdown文章中添加本地图片</span><br><span class="line"><span class="string">/images/</span>图片名称<span class="string">.png</span></span><br></pre></td></tr></table></figure>
+
+<p><img src="/images/111.jpg" alt="avatar"></p>
+]]></content>
+  </entry>
+  <entry>
     <title>电子商务基础</title>
     <url>/rongdean.github.io/2019/11/03/%E7%94%B5%E5%AD%90%E5%95%86%E5%8A%A1%E5%9F%BA%E7%A1%80/</url>
     <content><![CDATA[<h1 id="1-电子商务"><a href="#1-电子商务" class="headerlink" title="1.电子商务"></a>1.电子商务</h1><p>电子商务是指以信息网络技术为手段，以商品交换为中心的商务活动；也可理解为在互联网、企业内部网和增值网上以电子交易方式进行交易活动和相关服务的活动，是传统商业活动各环节的电子化、网络化、信息化；以互联网为媒介的商业行为均属于电子商务的范畴。</p>
