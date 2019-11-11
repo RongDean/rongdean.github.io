@@ -13,31 +13,31 @@
 <p>Vultr要求新用户必须充值后才能选择服务器，目前Vultr已经支持支付宝付款。</p>
 <p>支付宝充值流程：</p>
 <p>点击页面左侧“Billing”，然后页面右侧选择“Alipay”就是支付宝，Vultr要求最低充值10美金。如图：</p>
-<p><img src="/rongdean.github.io/rongdean.github/zhuce.PNG" alt="avatar"></p>
+<p><img src="/images/zhuce.PNG" alt="avatar"></p>
 <ul>
 <li>新建VPS服务器<br>点击右上角+号，新建一个服务器：</li>
 </ul>
-<p><img src="/rongdean.github.io/rongdean.github/newserver.png" alt="avatar"></p>
+<p><img src="/images/newserver.png" alt="avatar"></p>
 <p>这里可以选择各个大洲的服务器。电信首推洛杉矶，联通首推日本，移动推荐新加坡。</p>
-<p><img src="/rongdean.github.io/rongdean.github/asserver.png" alt="avatar"></p>
+<p><img src="/images/asserver.png" alt="avatar"></p>
 <p>接下来选择vps的操作系统和套餐，没啥说的，选择Ctos764位操作系统，然后选择5刀或其他的套餐，目前迈阿密和日本好像还有2.5刀一个月的。</p>
 <p>套餐价格不仅仅跟流量多少和配置等明面上的信息有关，跟分配的vps的带宽也有关，比如$5比$2.5的带宽就高，速度也更快，如果是个人使用2.5刀的就够了，多人（3-5）可以选择5刀的。</p>
-<p><img src="/rongdean.github.io/rongdean.github/centos7.png" alt="avatar"></p>
+<p><img src="/images/centos7.png" alt="avatar"></p>
 <p>最后点击立即创建</p>
-<p><img src="/rongdean.github.io/rongdean.github/stat.png" alt="avatar"></p>
+<p><img src="/images/stat.png" alt="avatar"></p>
 <p>过一段时间后，服务器创建完成。</p>
 <h1 id="部署服务器"><a href="#部署服务器" class="headerlink" title="部署服务器"></a>部署服务器</h1><p>紧接上一步，服务器新建完成后，点击下图的菊花图标，查看详情（要等到右边的绿色文字变为Running之后点击）</p>
-<p><img src="/rongdean.github.io/rongdean.github/server.png" alt="avatar"></p>
+<p><img src="/images/server.png" alt="avatar"></p>
 <p>下面是服务器详细信息，需要说明的是服务器IP、用户名和密码，下面会用到的</p>
-<p><img src="/rongdean.github.io/rongdean.github/serverinit.png" alt="avatar"></p>
+<p><img src="/images/serverinit.png" alt="avatar"></p>
 <p>接下来你需要下载一个叫Xshell的软件来进入服务器的控制台界面，这里提供一个下载地址，如果挂了，请自行度娘“Xshell”</p>
 <p>下载安装Xshell后，打开软件，点击左上角文件–打开–新建</p>
-<p><img src="/rongdean.github.io/rongdean.github/xinjian.png" alt="avatar"></p>
+<p><img src="/images/xinjian.png" alt="avatar"></p>
 <p>然后填入下面信息，只需要改图中两个箭头所指，其他的不用改</p>
-<p><img src="/rongdean.github.io/rongdean.github/xinjian1.png" alt="avatar"></p>
-<p>接下来输入用户名<br><img src="/rongdean.github.io/rongdean.github/root.png" alt="avatar"><br><img src="/rongdean.github.io/rongdean.github/mima.png" alt="avatar"></p>
+<p><img src="/images/xinjian1.png" alt="avatar"></p>
+<p>接下来输入用户名<br><img src="/images/root.png" alt="avatar"><br><img src="/images/mima.png" alt="avatar"></p>
 <p>密码输入正确之后，如下图所示</p>
-<p><img src="/rongdean.github.io/rongdean.github/lianjieshangle.png" alt="avatar"></p>
+<p><img src="/images/lianjieshangle.png" alt="avatar"></p>
 <h1 id="开始部署SSR服务器"><a href="#开始部署SSR服务器" class="headerlink" title="开始部署SSR服务器"></a>开始部署SSR服务器</h1><p>CentOS/Debian/Ubuntu ShadowsocksR单/多端口一键管理脚本：</p>
 <figure class="highlight vim"><table><tr><td class="code"><pre><span class="line">yum -<span class="keyword">y</span> install wget</span><br><span class="line">wget -<span class="keyword">N</span> --<span class="keyword">no</span>-check-certificate http<span class="variable">s:</span>//softs.fun/Bash/ssr.<span class="keyword">sh</span> &amp;&amp; chmod +<span class="keyword">x</span> ssr.<span class="keyword">sh</span> &amp;&amp; bash ssr.<span class="keyword">sh</span></span><br></pre></td></tr></table></figure>
 
@@ -51,9 +51,9 @@
 
 
 <p>接下来我们一起来设置相关信息，照着图走就行</p>
-<p><img src="/rongdean.github.io/rongdean.github/1.jpg" alt="avatar"><br><img src="/rongdean.github.io/rongdean.github/2.jpg" alt="avatar"><br><img src="/rongdean.github.io/rongdean.github/3.jpg" alt="avatar"><br><img src="/rongdean.github.io/rongdean.github/4.jpg" alt="avatar"><br><img src="/rongdean.github.io/rongdean.github/5.jpg" alt="avatar"><br><img src="/rongdean.github.io/rongdean.github/6.jpg" alt="avatar"></p>
+<p><img src="/images/1.jpg" alt="avatar"><br><img src="/images/2.jpg" alt="avatar"><br><img src="/images/3.jpg" alt="avatar"><br><img src="/images/4.jpg" alt="avatar"><br><img src="/images/5.jpg" alt="avatar"><br><img src="/images/6.jpg" alt="avatar"></p>
 <p>复制下图的连接信息到记事本</p>
-<p><img src="/rongdean.github.io/rongdean.github/new7.jpg" alt="avatar"></p>
+<p><img src="/rongdean.github.io/rongdean.github/images7.jpg" alt="avatar"></p>
 <p>好了，到这里，SSR安装大工搞成!</p>
 <h1 id="最后一步-使用ssr-ss科学上网"><a href="#最后一步-使用ssr-ss科学上网" class="headerlink" title="最后一步  使用ssr/ss科学上网"></a>最后一步  使用ssr/ss科学上网</h1><p>客户端，我推荐原本的ss，个人感觉界面更简约</p>
 <p>然后ssr的好处是，多了几个加密，网上说能减少封ip的几率，不晓得是不是真的。</p>
@@ -67,9 +67,9 @@
 <p>打开刚才保存在记事本中的连接信息</p>
 <p>如果你使用的ss客户端，复制ss的连接信息</p>
 <p>如果你使用的ssr客户端，就复制ssr的连接信息</p>
-<p><img src="/rongdean.github.io/rongdean.github/8.jpg" alt="avatar"></p>
+<p><img src="/images/8.jpg" alt="avatar"></p>
 <p>然后打开软件，右键小飞机图标，选择从剪贴板批量导入ssr://链接…</p>
-<p><img src="/rongdean.github.io/rongdean.github/9.jpg" alt="avatar"><br><img src="/rongdean.github.io/rongdean.github/10.jpg" alt="avatar"></p>
+<p><img src="/images/9.jpg" alt="avatar"><br><img src="/images/10.jpg" alt="avatar"></p>
 <p>然后这里的启用系统代理，就可以访问外网了</p>
 <p>系统代理模式有两种，pac和全局，pac是部分网页通过ss，全局是所有流量都通过ss（比如打游戏就要开全局）</p>
 <p>最后经过测试，发现在pac模式下火狐浏览器不能科学上网，原因不明。</p>
