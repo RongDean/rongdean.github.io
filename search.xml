@@ -18,9 +18,9 @@
 <figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">speedtest</span><span class="selector-class">.py</span></span><br></pre></td></tr></table></figure>
 
 <p>运行结果如图，可以看到下载与上传的宽带：</p>
-<p><img src="/images/test1.JPG" alt="avatar"></p>
+<p><img src="/images/test1.png" alt="avatar"></p>
 <p>然后安装锐速后再测结果：</p>
-<p><img src="/images/test2.JPG" alt="avatar"></p>
+<p><img src="/images/test2.png" alt="avatar"></p>
 <p>可以看到效果还是很明显的。</p>
 <p>下面介绍给VPS安装锐速或BBR加速。</p>
 <p>建议直接Centos 7×64系统或者Centos 6×64系统。不管选择哪个，最少要是64位的！</p>
@@ -36,7 +36,7 @@
 <p><strong>Centos6 ×64系统运行</strong></p>
 <figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">rpm -ivh http:<span class="regexp">//</span>soft.<span class="number">91</span>yun.org<span class="regexp">/ISO/</span>Linux<span class="regexp">/CentOS/</span>kernel<span class="regexp">/kernel-2.6.32-504.3.3.el6.x86_64.rpm --force</span></span><br></pre></td></tr></table></figure>
 
-<p><img src="/images/test3.JPG" alt="avatar"></p>
+<p><img src="/images/test3.png" alt="avatar"></p>
 <p>代码跑完之后输入下面这个命令来重启主机让内核生效。</p>
 <figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">reboot</span></span><br></pre></td></tr></table></figure>
 
@@ -45,10 +45,10 @@
 <figure class="highlight vim"><table><tr><td class="code"><pre><span class="line">wget http<span class="variable">s:</span>//shiyu.<span class="keyword">pro</span>/serverspeeder.<span class="keyword">sh</span> &amp;&amp; bash serverspeeder.<span class="keyword">sh</span></span><br></pre></td></tr></table></figure>
 
 <p>最后出现以下界面：</p>
-<p><img src="/images/test4.JPG" alt="avatar"></p>
+<p><img src="/images/test4.png" alt="avatar"></p>
 <p>至此安装完毕。</p>
 <p>如果你的主机不是vultr的，因为你跳过了安装内核步骤，所以会出现这种情况来选内核</p>
-<p><img src="/images/test5.JPG" alt="avatar"></p>
+<p><img src="/images/test5.png" alt="avatar"></p>
 <p>在各个选项中选一个与那个红色背景的版本号显示相近的。比如我这个图中就是选择的4。</p>
 <p>然后回车确定，安装完毕！</p>
 <table>
@@ -82,7 +82,7 @@
 <figure class="highlight 1c"><table><tr><td class="code"><pre><span class="line">lsmod <span class="string">| grep bbr</span></span><br></pre></td></tr></table></figure>
 
 <p>运行结果出现bbr就可以了，如下图</p>
-<p><img src="/images/test6.JPG" alt="avatar"></p>
+<p><img src="/images/test6.png" alt="avatar"></p>
 <h2 id="本脚本适用环境"><a href="#本脚本适用环境" class="headerlink" title="本脚本适用环境"></a><strong>本脚本适用环境</strong></h2><p>系统支持：CentOS 6+，Debian 7+，Ubuntu 12+<br>虚拟技术：OpenVZ 以外的，比如 KVM、Xen、VMware 等</p>
 <hr>
 <h2 id="关于本脚本"><a href="#关于本脚本" class="headerlink" title="关于本脚本"></a><strong>关于本脚本</strong></h2><p>1、本脚本已在 Vultr 上的 VPS 全部测试通过。<br>2、当脚本检测到 VPS 的虚拟方式为 OpenVZ 时，会提示错误，并自动退出安装。<br>3、脚本运行完重启发现开不了机的，请参考Virmach的方法安装。</p>
